@@ -1,0 +1,551 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 16px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background: #fdf5e6;
+}
+.header{
+	width: 1180px;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.header{
+	width:100%;
+	height: 60px;
+	padding: 10px 0;
+	background: #ffffff;
+	box-shadow:2px 3px 5px #cccccc;
+}
+.header{
+	width:1200px;
+	margin: auto;
+}
+.header-logo{
+	float: left;
+}
+.header-nav{
+	float: right;
+}
+.header-logo img{
+	float: left;
+	width: auto;
+	height: 60px;
+}
+.header-logo h4{
+	float: left;
+	margin-left: 15px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	color: #333333;
+}
+.header-nav ul li{
+	float: left;
+	list-style: none;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 20px;
+}
+.header-nav ul li a{
+	text-decoration: none;
+	color: #333333;
+}
+.header-nav ul .active a{
+	color: red;
+}
+.header-nav ul li a:hover{
+	color: red;
+}
+/*banner*/
+.banner{
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin: 20px auto;
+}
+.banner-left{
+	width: 730px;
+	height: 480px;
+}
+.banner-left img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/*banner right*/
+.banner-right{
+	width: 420px;
+	padding: 20px;
+	background: #ffffff;
+}
+.banner-search{
+	display: flex;
+	width: 90%;
+	height: 40px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 8px;
+	overflow: hidden;
+	border: 1px solid #cccccc;
+}
+.banner-search input{
+	width: 78%;
+	height: 40px;
+	padding-left: 2%;
+	border: none;
+	outline: none;
+}
+.banner-search button{
+	width: 20%;
+	background: #2b60e3;
+	color: #ffffff;
+	border: none;
+	outline: none;
+}
+.banner-text-title{
+	position: relative;
+	border-bottom: 2px solid #cccccc;
+	margin: 20px 0 15px 0;
+}
+.banner-text-title h4{
+	position: relative;
+	bottom: -2px;
+	display: inline-block;
+	border-bottom: 2px solid #2b60e5;
+	font-size: 20px;
+	color: #333333;
+	padding-bottom: 5px;
+}
+.banner-text-list ul li{
+	list-style: none;
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.banner-text-list ul li p{
+	float: left;
+	color: #333333;
+}
+.banner-text-list span{
+	float: right;
+	color: #b22222;
+	font-size: 15px;
+}
+/*新闻列表*/
+
+/*map*/
+.about{
+	width: 1180px;
+	margin: auto;
+	background: #ffffff;
+	padding: 10px;
+}
+.about .banner-text-title,.news .banner-text-title,{
+	margin: 0 0 10px 0;
+}
+.about-box{
+	display: flex;
+	justify-content: space-between;
+}
+.about-box-img{
+	width: 400px;
+	height: 600px;
+}
+.about-box-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.about-box-text{
+	width: 700px;
+}
+.about-box-text p{
+	text-indent: 2em;
+	margin: 2px;
+	font-size: 18.5px;
+	line-height: 1.8;
+}
+.news{
+	width: 1180px;
+	margin: 10px auto;
+	padding: 10px;
+	background: #ffffff;
+}
+.news-box ul{
+	display: flex;
+	justify-content: space-between;
+}
+.news-box ul li{
+	cursor: pointer;
+	width: 24%;
+	height: 24%;
+	list-style: none;
+	border: 1px solid #cccccc;
+}
+.news-box ul li img{
+	width: 100%;
+	height: 90%;
+	object-fit: cover;
+}
+.news-box ul li p{
+	text-align: center;
+	padding: 10px 5px;
+}
+.news-box ul li:hover{
+	box-shadow: 2px 3px 5px #cccccc;
+}
+.map{
+	width: 1200px;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.map-nav{
+	display: flex;
+	justify-content: flex-start;
+}
+.map-nav .ftn-list{
+	margin-right: 40px;
+}
+.map{
+	background: #333333;
+	padding: 13px 0;
+	color: #ffffff;
+	text-align: center;
+}
+.map>p{
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.footer{
+	width: 100%;
+	background: #ffffff;
+	margin-top: 20px;
+}
+.footer-top{
+	width: 1200px;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-top-nav{
+	display: flex;
+	justify-content: flex-start;
+}
+.footer-top-nav .ftn-list{
+	margin-right: 40px;
+}
+.ftn-list ul li{
+	list-style: none;
+}
+.ftn-list>span{
+	display: block;
+	color: #ff0000;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.ftn-list a,.footer-top-phone p{
+	display: block;
+	color: #3333333;
+	text-decoration: none;
+	margin: 9px;
+}
+.ftn-list a:hover{
+	color: crimson;
+}
+map{
+	width: 1200px;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer{
+	width: 1180px;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-nav{
+	display: flex;
+	justify-content: flex-start;
+}
+.fotter-nav .ftn-list{
+	margin-right: 40px;
+}
+
+.footer-bottom{
+	background: #333333;
+	padding: 15px 0;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+}
+.footer-bottom{
+	width: 1180px;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+/*map*/
+
+/*form*/
+.book{
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	height: auto;
+	min-height: 800px;
+	padding: 20px;
+	margin: 40px auto;
+	background: #ffffff;
+	box-sizing: border-box;
+	align-items: center;
+}
+.book-title{
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 25px;
+	padding-left: 100px;
+	font-weight: 600;
+}
+.section-title{
+	font-size: 28px;
+	text-align: center;
+	color: transparent;
+	-webkit-text-stroke: 2px red;
+	text-stroke: 2px red;
+	margin-bottom: 30px;
+	padding-left: 100px;
+	font-weight: 700;
+}
+label{
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 15px;
+}
+label span{
+	width: 100px;
+	text-align: right;
+	color: #555;
+	margin-right: 20px;
+}
+label input{
+	outline: none;
+	width: 500px;
+	height: 40px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	padding-left: 10px;
+	font-size: 16px;
+}
+label textarea{
+	outline: none;
+	width: 490px;
+	height: 200px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-size: 16px;
+}
+/*phone*/
+label.center-contact{
+	display: flex;
+	align-items: center;
+	width: 620px;
+	margin: 0 auto 5px;
+}
+label.center-contact span{
+	width: 95px;
+	flex-shrink: 0;
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+label.center-contact select{
+	height: 40px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	width: auto;
+}
+/*phone*/
+/*.label button{
+	cursor: pointer;
+	width: 100px;
+	height: 38px;
+	color: #fff;
+	background: #f5b041;
+	border: none;
+	border-radius: 6px;
+	margin-right: 30px;
+}
+.label.center-contact{
+	display: flex;
+	align-items: center;
+	width: 620px;
+	margin: 0 auto 20px;
+}
+.label.center-contact span{
+	width: 180px;
+	flex-shrink: 0;
+}
+.label.center-contact select{
+	width: 500px;
+	height: 40px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-size:16px
+}*/
+
+
+/*三格子City*/
+form {
+  width: 630px;
+  margin: 0 auto;
+}
+input {
+  width: 90%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+.row {
+  display: flex;
+  width: 510px;
+  gap: 10px;
+  margin-left: 120px;
+  margin-bottom: 5px;
+}
+.row input {
+  flex: 1;
+  min-width: 0;
+}
+/*三格子City*/
+/*phone*/
+.label.center-contact{
+	display: flex;
+	align-items: center;
+	width: 620px;
+	margin: 0 auto 5px;
+	position: relative;
+}
+.label.center-contact span{
+	width: 100%;
+	text-align: center;
+}
+.label.center-contact select{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-size:16px
+}
+/*phone*/
+/*label*/
+
+/*medical*/
+.checkbox-group{
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	width: auto;
+	margin: 15px 0 15px 200px;
+	max-width: 600px;
+}
+.col-left,.col-right{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	flex: 1;
+}
+.checkbox-group p{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0 0 8px 0;
+	line-height: 1.3;
+	width: 100%;
+}
+.checkbox-group input[type="checkbox"]{
+	margin: 0;
+	flex-shrink: 0;
+	align-self: center;
+	width: 18px;
+	height: 18px;
+}
+/*.checkbox-group p{
+	break-inside: avoid;
+	margin: 0;
+}
+.checkbox-group label{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 8px;
+}
+/*medical*/
+/*form*/
+.waiver-content{
+	margin: 20px 0;
+	padding: 0 200px;
+	line-height: 1.6;
+	text-align: justify;
+}
+.waiver-body{
+	margin: 20px 0;
+	padding: 0 60px;
+	line-height: 1.6;
+	text-align: justify;
+}
+/*form*/
+/*qz*/
+.confirm-row {
+  display: flex;
+  align-items: center; /* 让复选框和文字垂直居中 */
+  justify-content: center; /* 让整行居中（和截图对齐） */
+  gap: 10px; /* 复选框和文字之间的间距 */
+  margin: 20px 0;
+}
+
+.confirm-row input[type="checkbox"] {
+  margin: 0; /* 清除默认边距 */
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0; /* 防止复选框被压缩 */
+  transform: translateY(-6px);
+}
+
+.confirm-row label {
+  font-size: 16px;
+  font-family: "Times New Roman", serif;
+  white-space: nowrap; /* 防止文字换行 */
+}
+/*qz*/
+#signatureCanvas{
+	background: #fff;
+	border: 1px solid #ccc;
+	cursor: crosshair;
+	position: relative;
+	z-index: 10;
+}
